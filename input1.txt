@@ -1,0 +1,6 @@
+101,Math,80
+101,Science,90
+101,English,70
+102,Math,60
+102,Science,75
+102,English,65

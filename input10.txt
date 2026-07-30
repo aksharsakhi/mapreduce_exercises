@@ -1,0 +1,7 @@
+Dharun,8.6
+Prithvi,9.2
+Suriya,7.8
+Arjun,8.5
+Chandran,5.9
+Indhran,9.0
+Vishwanth,7.6

@@ -1,0 +1,5 @@
+INFO System Started
+ERROR File Missing
+INFO User Login
+WARNING Low Memory
+ERROR Database Failed

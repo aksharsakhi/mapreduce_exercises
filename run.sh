@@ -30,12 +30,12 @@ echo "====================================================="
 
 rm -rf build *.class *.jar 2>/dev/null
 mkdir -p build
-javac -classpath `hadoop classpath` -d build ${CLASS}.java
+javac -classpath `hadoop classpath` -d build src/${CLASS}.java
 jar -cvf job.jar -C build/ .
 
 hadoop fs -mkdir -p /input_${PROG}
 hadoop fs -rm -r /output_${PROG} 2>/dev/null
-hadoop fs -put -f ${IN} /input_${PROG}/
+hadoop fs -put -f inputs/${IN} /input_${PROG}/
 
 hadoop jar job.jar ${CLASS} /input_${PROG} /output_${PROG}
 
